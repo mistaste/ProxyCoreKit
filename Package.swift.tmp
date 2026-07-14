@@ -1,4 +1,5 @@
-// Proxy Core Kit for IOS development
+// ProxyCoreKit for Guardex iOS. Release URL and checksum are substituted by
+// the proxy_core release workflow.
 // swift-tools-version:6.0
 
 import PackageDescription
@@ -21,7 +22,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ProxyCoreKitBinary",
-            url: "https://github.com/mahsanet/ProxyCoreKit/releases/download/RELEASE_PLACEHOLDER/ProxyCoreKit.xcframework.zip",
+            url: "https://github.com/mistaste/ProxyCoreKit/releases/download/RELEASE_PLACEHOLDER/ProxyCoreKit.xcframework.zip",
             checksum: "CHECKSUM_PLACEHOLDER"
         )
     ]
