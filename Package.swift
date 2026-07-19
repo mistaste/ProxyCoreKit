@@ -1,5 +1,6 @@
 // ProxyCoreKit for Guardex iOS. The binary in this release is built from
-// mistaste/proxy_core 7.2.0 with sustained egress verification.
+// mistaste/proxy_core 7.2.2 with hardened local control planes and full-tunnel
+// Apple routing. Source commit: fa7b958234f5515511a62539adc98aa44ea0538f.
 // swift-tools-version:6.0
 
 import PackageDescription
@@ -22,8 +23,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ProxyCoreKitBinary",
-            url: "https://github.com/mistaste/ProxyCoreKit/releases/download/7.2.0/ProxyCoreKit.xcframework.zip",
-            checksum: "6fede0db7a7c5cd32d3fd57749c1cd5aed614999db5430fbcad3e25ac4619e87"
+            url: "https://github.com/mistaste/ProxyCoreKit/releases/download/7.2.2/ProxyCoreKit.xcframework.zip",
+            checksum: "2ce78afa66ea28867c019af51fb7215a19206b6dc3a2efd82093de845fa055d1"
         )
     ]
 )
